@@ -1,0 +1,376 @@
+/* universal styles */
+html {
+    background-color: #421010;
+    font-family: "Hepta Slab", serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.titlename {
+    font-family:"Bungee Tint", serif;
+    font-size: 2rem;
+    font-style: normal;
+    color: white;
+    background-color: #421010;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Adjust spacing between icons as needed */
+    background-color: transparent;
+    padding-left: 250px;
+}
+
+.social-icon {
+    width: 45px;
+    height: auto;
+}
+
+/* navigaton links */
+
+.main-nav {
+
+    background-color: #421010; /* Match the background color */
+    padding: 25px 0; /* Adjust padding as needed */
+    text-align: center;
+    z-index: 1000; 
+
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+    gap: 20px; 
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    font-family: "Bungee Tint", serif;
+    color: white; /* Adjust link color as needed */
+    font-size: 2rem; /* Adjust font size as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.main-nav ul li a:hover {
+    color: #f8f9fa; /* Change color on hover */
+}
+
+
+
+
+
+/* header styles */
+header {
+    display: flex;
+    justify-content: center; /* Center the header content */
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #421010; /* Fallback background color */
+    background-image: url("santaholding.jpeg");
+    background-size: cover; /* Cover the entire header area */
+    background-position: center; /* Center the background image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.header-title {
+    font-family: "Bungee Tint", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+    padding: 6rem 4px 4px 4px; 
+    text-align: center;
+    background-color: #421010;
+    color: white;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.header-links {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    gap: 20px; /* Adjust spacing between items as needed */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: center;
+}  
+
+.header-links li {
+    display: flex;
+    flex-direction: column; /* Arrange link and image in a column */
+    align-items: center; /* Center items horizontally */
+    flex: 1 1 auto; /* Allow items to grow and shrink as needed */
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white; 
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add space between link and image */
+}
+
+/* team styles */
+.team-member, .team-member2, .team-member3, .team-member4 {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    color: white;
+}
+
+/* nav styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 275px;
+    margin-bottom: 60px;
+    margin-top: 300px; 
+    padding: 80px;
+    background-color:#421010;
+    color: white;
+    font-family: "Bungee Tint", serif;
+    font-weight: 500;
+    font-size: 1.50rem;
+}
+
+.container h2 {
+    font-family: "Bungee Tint", serif;
+    font-size: 2.75rem; 
+    font-weight: 500;
+    font-style: normal;
+    color: white; 
+}
+
+/* sign up section */
+#sign-up-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 43.5rem;
+    margin-top: 0;
+    padding-top: 0; 
+}
+
+#sign-up-cta {
+    position: relative;
+    flex-direction: column;
+    top: 171px;
+    left: 10%;
+    padding: 0 5rem 2.5rem 5rem;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    background-color: #9d2020;
+}
+
+#sign-up-cta .content {
+    width: 25.625rem;
+    margin-top: 2rem;
+    font-family: "Hepta Slab", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+}
+
+#sign-up-cta h1 {
+    font-size: 3.125rem;
+}
+
+#sign-up-cta h2 {
+    font-size: 2.25rem;
+}
+
+#sign-up-cta span strong {
+    font-weight: bold;
+}
+
+#sign-up-cta .cursive {
+    font-family: "Hepta Slab", serif;
+    font-weight: 500;
+}
+
+#sign-up-cta .striking {
+    font-family: "Hepta Slab", sans-serif;
+    padding-bottom: .75rem;
+}
+
+@media only screen and (max-width: 760px) {
+    #sign-up-section {
+        align-items: center;
+        justify-content: center;
+        height: 28rem;
+    }
+
+    #sign-up-cta {
+        position: static;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    #sign-up-cta .content {
+        margin-top: 0;
+    }
+
+    #sign-up-cta .email {
+        display: none;
+    }
+
+    #sign-up-cta h1 {
+        font-size: 3.125rem;
+    }
+
+    #sign-up-cta h2 {
+        font-size: 2.25rem;
+    }
+}
+
+
+.crypto-santa {
+    width: 100px;
+    height: auto; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+.button.join-waiting-list {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem; 
+    color: #fff; /* Text color */
+    background-color: #266136; /* Background color */
+    border: none;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.button.join-waiting-list:hover {
+    background-color: #1e5537; /* Darker background on hover */
+}
+
+
+/* body styles */
+
+.about-us {
+    height: 120vh;
+    margin: 1;
+    padding: 8rem;
+    margin-top: 4rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: "Bungee Tint", serif;
+    font-style: normal;
+}
+
+.cryptocurrencies {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    gap: 20px; /* Adjust spacing between items as needed */
+    margin: 1;
+    padding: 2rem;
+    color: black;
+    font-size: 2rem;
+    font-family: "Bungee Tint", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.crypto-item {
+    display: flex;
+    flex-direction: column; /* Arrange image and link in a column */
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid #ccc; /* Add border to each item */
+    border-radius: 5px; /* Add border radius to each item */
+    background-color: #fff; /* Background color for each item */
+    color: #000; /* Text color for each item */
+    text-align: center;
+    width: 250px; /* Set a fixed width for the rectangle */
+    height: 200px; /* Set a fixed height for the rectangle */
+    margin-bottom: 20px; /* Add space between items */
+}
+
+.crypto-item img {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add space between image and link */
+}
+
+.crypto-item a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
+/* footer styles */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    background-color: #7d0a0a;
+    color: #fff;
+}
+
+#copywrite {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#location {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    text-align: right; 
+    margin: 0;
+    padding: 0;
+}
+
+
+/* social media icons */
+.social-icon {
+
+    width: 50px; 
+    height: auto;
+    z-index: 1000;
+}
